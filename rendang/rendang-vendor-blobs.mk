@@ -64,6 +64,28 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/smartfren/rendang/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/smartfren/rendang/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/smartfren/rendang/proprietary/bin/cnd:system/bin/cnd \
+    vendor/smartfren/rendang/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
+    vendor/smartfren/rendang/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/smartfren/rendang/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+    vendor/smartfren/rendang/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libmasc.so:system/vendor/lib/libmasc.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/smartfren/rendang/proprietary/bin/dpmd:system/bin/dpmd \
+    vendor/smartfren/rendang/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
+    vendor/smartfren/rendang/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
+    vendor/smartfren/rendang/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
     vendor/smartfren/rendang/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/smartfren/rendang/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
@@ -136,6 +158,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
@@ -143,7 +166,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
     vendor/smartfren/rendang/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/smartfren/rendang/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/smartfren/rendang/proprietary/bin/radish:system/bin/radish \
@@ -173,34 +195,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/smartfren/rendang/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/smartfren/rendang/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/smartfren/rendang/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
-    vendor/smartfren/rendang/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/smartfren/rendang/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
-    vendor/smartfren/rendang/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/smartfren/rendang/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/smartfren/rendang/proprietary/bin/cnd:system/bin/cnd \
-    vendor/smartfren/rendang/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/smartfren/rendang/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/smartfren/rendang/proprietary/priv-app/CNEService/CNEService.apk:system/priv-app/CNEService/CNEService.apk \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libmasc.so:system/vendor/lib/libmasc.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/smartfren/rendang/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/smartfren/rendang/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/smartfren/rendang/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/smartfren/rendang/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
-    vendor/smartfren/rendang/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
-    vendor/smartfren/rendang/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so
+    vendor/smartfren/rendang/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so
 endif
 
 PRODUCT_COPY_FILES += \
