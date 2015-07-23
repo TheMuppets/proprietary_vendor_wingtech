@@ -36,7 +36,6 @@ PRODUCT_PACKAGES += \
     libloc_ds_api
 
 PRODUCT_PACKAGES += \
-    libHevcSwDecoder \
     libtime_genoff
 
 $(call inherit-product, vendor/wingtech/wt88047/wt88047-vendor-blobs.mk)
