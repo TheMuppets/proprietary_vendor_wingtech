@@ -198,33 +198,4 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/wingtech/wt88047/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so
-
-PRODUCT_COPY_FILES += \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_ov5648_rendang.so:system/vendor/lib/libactuator_dw9714_ov5648_rendang.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_ov5648_rendang_camcorder.so:system/vendor/lib/libactuator_dw9714_ov5648_rendang_camcorder.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_ov5648_rendang_camera.so:system/vendor/lib/libactuator_dw9714_ov5648_rendang_camera.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_ov5670_rendang.so:system/vendor/lib/libactuator_dw9714_ov5670_rendang.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_ov5670_rendang_camcorder.so:system/vendor/lib/libactuator_dw9714_ov5670_rendang_camcorder.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_ov5670_rendang_camera.so:system/vendor/lib/libactuator_dw9714_ov5670_rendang_camera.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_gc2355_rendang_common.so:system/vendor/lib/libchromatix_gc2355_rendang_common.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_gc2355_rendang_preview.so:system/vendor/lib/libchromatix_gc2355_rendang_preview.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_rendang_common.so:system/vendor/lib/libchromatix_ov5648_q5v22e_rendang_common.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_rendang_default_video_hd.so:system/vendor/lib/libchromatix_ov5648_q5v22e_rendang_default_video_hd.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_rendang_default_video.so:system/vendor/lib/libchromatix_ov5648_q5v22e_rendang_default_video.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_rendang_preview.so:system/vendor/lib/libchromatix_ov5648_q5v22e_rendang_preview.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_rendang_snapshot.so:system/vendor/lib/libchromatix_ov5648_q5v22e_rendang_snapshot.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_rendang_zsl.so:system/vendor/lib/libchromatix_ov5648_q5v22e_rendang_zsl.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_rendang_common.so:system/vendor/lib/libchromatix_ov5670_q5v41b_rendang_common.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_rendang_default_video.so:system/vendor/lib/libchromatix_ov5670_q5v41b_rendang_default_video.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_rendang_hfr_120fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_rendang_hfr_120fps.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_rendang_hfr_60fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_rendang_hfr_60fps.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_rendang_hfr_90fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_rendang_hfr_90fps.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_rendang_liveshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_rendang_liveshot.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_rendang_preview.so:system/vendor/lib/libchromatix_ov5670_q5v41b_rendang_preview.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_rendang_snapshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_rendang_snapshot.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_rendang_video_hd.so:system/vendor/lib/libchromatix_ov5670_q5v41b_rendang_video_hd.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_rendang_zsl.so:system/vendor/lib/libchromatix_ov5670_q5v41b_rendang_zsl.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera_gc2355_rendang.so:system/vendor/lib/libmmcamera_gc2355_rendang.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera_ov5648_q5v22e_rendang.so:system/vendor/lib/libmmcamera_ov5648_q5v22e_rendang.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera_ov5670_q5v41b.so:system/vendor/lib/libmmcamera_ov5670_q5v41b.so
 endif
