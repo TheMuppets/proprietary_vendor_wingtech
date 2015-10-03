@@ -158,6 +158,7 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/wingtech/wt88047/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/wingtech/wt88047/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/wingtech/wt88047/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
