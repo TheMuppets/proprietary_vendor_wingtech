@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!--Copyright (c) 2014 Qualcomm Technologies, Inc.  All Rights Reserved. Qualcomm Technologies Proprietary and Confidential.-->
+<!--Copyright (c) 2014-2015 Qualcomm Technologies, Inc.  All Rights Reserved. Qualcomm Technologies Proprietary and Confidential.-->
 <NsrmPolicy>
   <Nsrm>
     <!--The version of the NSRM software-->
     <Version>2.0</Version>
     <!--Length of time in seconds to keep gate open each time it is opened
         valid values 1 to 24*60*60 seconds-->
-    <GateOpenTime>10</GateOpenTime>
+    <GateOpenTime>1</GateOpenTime>
     <!--Maximum time in seconds to wait before forcing gate open for connect,
          getaddrinfo or other resolver calls
          valid values 1 to 24*60*60 seconds-->
@@ -25,6 +25,7 @@
     <SharedUIDMode>Conservative</SharedUIDMode>
     <!--List of applications which to apply Nsrm to-->
     <AppList Type="Exclusion">
+    <AppName>com.whatsapp</AppName>
     </AppList>
     <!-- Example MCC_MNC configuration
          NTO values are configured in seconds
@@ -40,6 +41,38 @@
     <MCC_MNC value="Default">
         <port value="0" NTO="300"/>
     </MCC_MNC>
+
+    <!-- Good Threshold. Double type. Range: [0.0 - 10.0] -->
+    <GoodThr>1.0</GoodThr>
+
+    <!-- Bad Threshold. Double type.  Range: [1.0 - 10.0] -->
+    <BadThr>3.0</BadThr>
+
+    <!-- Time period of connect count which will be used for decision making.
+         Default 4 hours (14400s). Range: [1 - 86,400] -->
+    <TConnect>14400</TConnect>
+
+    <!-- Time period of days which a decision is learning for an app.
+         Default 30 days (2592000s). Range: [1 - 31,536,000] -->
+    <TDecisionMade>2592000</TDecisionMade>
+
+    <!-- Minimum connect counts. Range: [0 - 100] -->
+    <MinThr>5</MinThr>
+
+    <!-- Time margin. Default 60s. Range: [1 - 1800] -->
+    <TMargin>60</TMargin>
+
+    <!-- Minimum time idle. Default 10 min (600s). Range: [1 - 3600] -->
+    <TMinIdle>600</TMinIdle>
+
+    <!-- Time for query. Default 5 min (300s). Range: [60 - 3600] -->
+    <TQuery>300</TQuery>
+
+    <!-- Decision made time threshold. Default 5 days (432000s). Range: [1 - 31,536,000] -->
+    <TDmThreshold>432000</TDmThreshold>
+
+    <!-- Decision made. 0 false, 1 true -->
+    <DNsrmEnable>0</DNsrmEnable>
   </Nsrm>
   <!-- The next element is for reference only to show how to config NSRM
        parameters for another version that may be supported on the device -->

@@ -119,21 +119,23 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmasc.so:system/vendor/lib/libmasc.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/wingtech/wt88047/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/wingtech/wt88047/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/wingtech/wt88047/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/wingtech/wt88047/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/wingtech/wt88047/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/wingtech/wt88047/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
@@ -234,7 +236,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
