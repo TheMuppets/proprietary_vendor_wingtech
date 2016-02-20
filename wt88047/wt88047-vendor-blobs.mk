@@ -44,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
@@ -53,6 +54,8 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
@@ -62,18 +65,27 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_13p1ba.so:system/vendor/lib/libactuator_dw9714_13p1ba.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_13p1ba_camcorder.so:system/vendor/lib/libactuator_dw9714_13p1ba_camcorder.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_13p1ba_camera.so:system/vendor/lib/libactuator_dw9714_13p1ba_camera.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_13p1ba_sunny.so:system/vendor/lib/libactuator_dw9714_13p1ba_sunny.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_13p1ba_sunny_camcorder.so:system/vendor/lib/libactuator_dw9714_13p1ba_sunny_camcorder.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_13p1ba_sunny_camera.so:system/vendor/lib/libactuator_dw9714_13p1ba_sunny_camera.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9718s.so:system/vendor/lib/libactuator_dw9718s.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9718s_camcorder.so:system/vendor/lib/libactuator_dw9718s_camcorder.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9718s_camera.so:system/vendor/lib/libactuator_dw9718s_camera.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_13p1ba_h2x.so:system/vendor/lib/libactuator_dw9714_13p1ba_h2x.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_13p1ba_h2x_camcorder.so:system/vendor/lib/libactuator_dw9714_13p1ba_h2x_camcorder.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_13p1ba_h2x_camera.so:system/vendor/lib/libactuator_dw9714_13p1ba_h2x_camera.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_meituosi_h2x.so:system/vendor/lib/libactuator_dw9714_meituosi_h2x.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_meituosi_h2x_camcorder.so:system/vendor/lib/libactuator_dw9714_meituosi_h2x_camcorder.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_meituosi_h2x_camera.so:system/vendor/lib/libactuator_dw9714_meituosi_h2x_camera.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_sikao_h2x.so:system/vendor/lib/libactuator_dw9714_sikao_h2x.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_sikao_h2x_camcorder.so:system/vendor/lib/libactuator_dw9714_sikao_h2x_camcorder.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_dw9714_sikao_h2x_camera.so:system/vendor/lib/libactuator_dw9714_sikao_h2x_camera.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camera.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_a11.so:system/vendor/lib/libactuator_rohm_bu64243gwz_a11.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_a11_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_a11_camcorder.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_a11_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_a11_camera.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_h2x.so:system/vendor/lib/libactuator_rohm_bu64243gwz_h2x.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_h2x_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_h2x_camcorder.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_h2x_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_h2x_camera.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov2680_common.so:system/vendor/lib/libchromatix_ov2680_common.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov2680_default_video.so:system/vendor/lib/libchromatix_ov2680_default_video.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov2680_snapshot.so:system/vendor/lib/libchromatix_ov2680_snapshot.so \
