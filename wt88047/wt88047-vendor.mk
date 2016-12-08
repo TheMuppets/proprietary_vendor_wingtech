@@ -38,8 +38,9 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/wingtech/wt88047/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/wingtech/wt88047/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/wingtech/wt88047/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/wingtech/wt88047/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/wingtech/wt88047/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/wingtech/wt88047/proprietary/bin/perfd:system/bin/perfd \
     vendor/wingtech/wt88047/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/wingtech/wt88047/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/wingtech/wt88047/proprietary/bin/radish:system/bin/radish \
@@ -186,7 +187,7 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmasc.so:system/vendor/lib/libmasc.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
+    vendor/wingtech/wt88047/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
