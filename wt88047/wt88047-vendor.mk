@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/wingtech/wt88047/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/wingtech/wt88047/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/wingtech/wt88047/proprietary/bin/perfd:system/bin/perfd \
     vendor/wingtech/wt88047/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/wingtech/wt88047/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/wingtech/wt88047/proprietary/bin/radish:system/bin/radish \
@@ -69,6 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/wingtech/wt88047/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/wingtech/wt88047/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
+    vendor/wingtech/wt88047/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/wingtech/wt88047/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/wingtech/wt88047/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
