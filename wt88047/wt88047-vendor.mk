@@ -30,10 +30,8 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/bin/cnd:system/bin/cnd \
     vendor/wingtech/wt88047/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/wingtech/wt88047/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/wingtech/wt88047/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/wingtech/wt88047/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/wingtech/wt88047/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/wingtech/wt88047/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/wingtech/wt88047/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/wingtech/wt88047/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/wingtech/wt88047/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
