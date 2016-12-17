@@ -30,17 +30,14 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/bin/cnd:system/bin/cnd \
     vendor/wingtech/wt88047/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/wingtech/wt88047/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/wingtech/wt88047/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/wingtech/wt88047/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/wingtech/wt88047/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/wingtech/wt88047/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/wingtech/wt88047/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/wingtech/wt88047/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/wingtech/wt88047/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/wingtech/wt88047/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/wingtech/wt88047/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/wingtech/wt88047/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/wingtech/wt88047/proprietary/bin/perfd:system/bin/perfd \
     vendor/wingtech/wt88047/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/wingtech/wt88047/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/wingtech/wt88047/proprietary/bin/radish:system/bin/radish \
@@ -71,6 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/wingtech/wt88047/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/wingtech/wt88047/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
+    vendor/wingtech/wt88047/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/wingtech/wt88047/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/wingtech/wt88047/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
