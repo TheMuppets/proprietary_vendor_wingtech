@@ -225,9 +225,9 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
