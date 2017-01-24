@@ -153,6 +153,7 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmasc.so:system/vendor/lib/libmasc.so \
     vendor/wingtech/wt88047/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
@@ -237,8 +238,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
-    libmm-abl \
-    libqct_resampler \
     libtime_genoff \
     ims \
     shutdownlistener \
