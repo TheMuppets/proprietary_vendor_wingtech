@@ -1,4 +1,5 @@
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2015-2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -39,7 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/wingtech/wt88047/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/wingtech/wt88047/proprietary/bin/radish:system/bin/radish \
-    vendor/wingtech/wt88047/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/wingtech/wt88047/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/wingtech/wt88047/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/wingtech/wt88047/proprietary/bin/vm_bms:system/bin/vm_bms \
