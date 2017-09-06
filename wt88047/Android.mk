@@ -50,7 +50,6 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
-ifeq ($(QCPATH),)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
 LOCAL_MODULE_OWNER := wingtech
@@ -147,5 +146,4 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
-endif
 endif

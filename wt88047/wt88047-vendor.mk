@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/wingtech/wt88047/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
 
-ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/wingtech/wt88047/proprietary/bin/btnvtool:system/bin/btnvtool \
@@ -279,4 +278,3 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     qcnvitems \
     qcrilhook
-endif
