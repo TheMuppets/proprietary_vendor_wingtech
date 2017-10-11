@@ -152,7 +152,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
@@ -205,7 +204,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
