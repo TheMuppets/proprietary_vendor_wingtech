@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/bin/qseecomd:vendor/bin/qseecomd \
     vendor/wingtech/wt88047/proprietary/vendor/bin/radish:vendor/bin/radish \
     vendor/wingtech/wt88047/proprietary/vendor/bin/rmt_storage:vendor/bin/rmt_storage \
-    vendor/wingtech/wt88047/proprietary/vendor/bin/time_daemon:vendor/bin/time_daemon \
     vendor/wingtech/wt88047/proprietary/vendor/etc/data/dsi_config.xml:vendor/etc/data/dsi_config.xml \
     vendor/wingtech/wt88047/proprietary/vendor/etc/data/netmgr_config.xml:vendor/etc/data/netmgr_config.xml \
     vendor/wingtech/wt88047/proprietary/vendor/firmware/a300_pfp.fw:vendor/firmware/a300_pfp.fw \
@@ -251,7 +250,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libsystem_health_mon.so:vendor/lib/libsystem_health_mon.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libthermalclient.so:vendor/lib/libthermalclient.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libthermalioctl.so:vendor/lib/libthermalioctl.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libTimeService.so:vendor/lib/libTimeService.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libvoice-svc.so:vendor/lib/libvoice-svc.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libxml.so:vendor/lib/libxml.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:vendor/lib/mediadrm/libwvdrmengine.so \
@@ -267,7 +265,6 @@ PRODUCT_PACKAGES += \
     libmm-abl \
     libtime_genoff \
     shutdownlistener \
-    TimeService \
     qcrilmsgtunnel \
     qcnvitems \
     qcrilhook
